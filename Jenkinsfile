@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/swap1408/node-js-sample.git'
+                git 'https://github.com/ganesh81161818/node-js-sample.git'
             }
         }
          stage('Build Docker Image') {
